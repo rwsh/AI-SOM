@@ -1,0 +1,19 @@
+﻿<Window x:Class="SOM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SOM"
+        mc:Ignorable="d"
+        Title="Self-Organizing Map" Height="464" Width="681" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Canvas x:Name="g" HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" VerticalAlignment="Top" Width="400" Background="#FFA2ECC3"/>
+        <Button x:Name="button" Content="Выход" HorizontalAlignment="Left" Margin="415,390,0,0" VerticalAlignment="Top" Width="239" Click="cmClose"/>
+        <Button x:Name="button1" Content="Построить карту" HorizontalAlignment="Left" Margin="415,10,0,0" VerticalAlignment="Top" Width="239" Click="cmBuild"/>
+        <Button x:Name="button2" Content="Показать данные" HorizontalAlignment="Left" Margin="415,35,0,0" VerticalAlignment="Top" Width="239" Click="cmShowData"/>
+        <Button x:Name="button3" Content="Генерировать данные" HorizontalAlignment="Left" Margin="415,60,0,0" VerticalAlignment="Top" Width="239" Click="cmGenerate"/>
+        <Button x:Name="button4" Content="Проверить" HorizontalAlignment="Left" Margin="415,190,0,0" VerticalAlignment="Top" Width="239" Click="cmCheck"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="100" Margin="415,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="239" AcceptsReturn="True" AcceptsTab="True"/>
+
+    </Grid>
+</Window>
