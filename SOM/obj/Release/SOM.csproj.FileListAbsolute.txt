@@ -1,0 +1,14 @@
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\bin\Release\SOM.exe.config
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\bin\Release\SOM.exe
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\bin\Release\SOM.pdb
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Release\SOM.csprojResolveAssemblyReference.cache
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Release\MainWindow.g.cs
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Release\App.g.cs
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Release\SOM_MarkupCompile.cache
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Release\SOM_MarkupCompile.lref
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Release\MainWindow.baml
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Release\SOM.g.resources
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Release\SOM.Properties.Resources.resources
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Release\SOM.csproj.GenerateResource.Cache
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Release\SOM.exe
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Release\SOM.pdb

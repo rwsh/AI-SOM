@@ -48,7 +48,7 @@ namespace SOM
         {
             g.Children.Clear();
 
-            Filer = new TFiler("gen.txt");
+            Filer = new TFiler("t.txt");
 
             N = Filer[0].N;
 
@@ -67,8 +67,9 @@ namespace SOM
 
             Learning = new TLearning(SOM, XX);
 
-            Map.DrawSOM(SOM);
+            //Map.DrawSOM(SOM);
 
+            Map.DrawData(SOM, XX);
         }
 
         private void cmShowData(object sender, RoutedEventArgs e)
@@ -91,12 +92,8 @@ namespace SOM
 
             Random rnd = new Random();
 
-            int N = 2;
-
             for (int i = 0; i < 100; i++)
             {
-                string s = "";
-
                 int a = rnd.Next(0, 100);
                 int d = 0;
 
@@ -142,7 +139,7 @@ namespace SOM
                 }
             }
 
-            X.Normalize();
+            X.Normalize(Filer.Maxs);
 
             double min = double.MaxValue;
             int ind = -1;
@@ -160,7 +157,34 @@ namespace SOM
 
             int[] ij = SOM.Get_ij(ind);
 
-            Map.DrawCheck(ij[0], ij[1]);
+            Brush br = Brushes.Black;
+
+            if (radioButton.IsChecked == true)
+            {
+                br = Brushes.Black;
+            }
+            if (radioButton1.IsChecked == true)
+            {
+                br = Brushes.Blue;
+            }
+            if (radioButton2.IsChecked == true)
+            {
+                br = Brushes.Red;
+            }
+            if (radioButton3.IsChecked == true)
+            {
+                br = Brushes.Green;
+            }
+            if (radioButton4.IsChecked == true)
+            {
+                br = Brushes.Yellow;
+            }
+            if (radioButton5.IsChecked == true)
+            {
+                br = Brushes.Orange;
+            }
+
+            Map.DrawCheck(br, ij[0], ij[1]);
         }
     }
 }

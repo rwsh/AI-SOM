@@ -44,5 +44,26 @@ namespace SOM
                 x[i] /= M;
             }
         }
+
+        public void Normalize(double[] M)
+        {
+            for (int i = 0; i < N; i++)
+            {
+                x[i] /= M[i];
+            }
+        }
+
+
+        public double this[int ind]
+        {
+            get
+            {
+                return x[ind];
+            }
+            set
+            {
+                x[ind] = value;
+            }
+        }
     }
 }

@@ -1,0 +1,13 @@
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\bin\Debug\SOM.exe.config
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\bin\Debug\SOM.exe
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\bin\Debug\SOM.pdb
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Debug\MainWindow.g.cs
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Debug\App.g.cs
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Debug\SOM_MarkupCompile.cache
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Debug\SOM_MarkupCompile.lref
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Debug\MainWindow.baml
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Debug\SOM.g.resources
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Debug\SOM.Properties.Resources.resources
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Debug\SOM.csproj.GenerateResource.Cache
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Debug\SOM.exe
+c:\!programm\Dropbox\PROGRAMM\Искусственный интеллект\Самоорганизующиеся карты\SOM\SOM\obj\Debug\SOM.pdb

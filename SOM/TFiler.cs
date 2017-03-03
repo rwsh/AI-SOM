@@ -14,6 +14,8 @@ namespace SOM
 
         public int N = -1;
 
+        public double[] Maxs;
+
         public TFiler(string Name)
         {
             try
@@ -66,10 +68,38 @@ namespace SOM
 
         public void Normalize()
         {
-            for (int i = 0; i < Count; i++)
+            //for (int i = 0; i < Count; i++)
+            //{
+            //    this[i].Normalize();
+            //}
+
+            Maxs = new double[N];
+
+            for (int i = 0; i < N; i++)
             {
-                this[i].Normalize();
+                double M = Double.MinValue;
+
+                for (int j = 0; j < Count; j++)
+                {
+                    if (Math.Abs(this[j][i]) > M)
+                    {
+                        M = Math.Abs(this[j][i]);
+                    }
+                }
+
+                if (M < 1E-17)
+                {
+                    M = 1;
+                }
+
+                for (int j = 0; j < Count; j++)
+                {
+                    this[j][i] /= M;
+                }
+
+                Maxs[i] = M;
             }
+
         }
 
         public TX this[int i]

@@ -11,9 +11,14 @@
         <Button x:Name="button" Content="Выход" HorizontalAlignment="Left" Margin="415,390,0,0" VerticalAlignment="Top" Width="239" Click="cmClose"/>
         <Button x:Name="button1" Content="Построить карту" HorizontalAlignment="Left" Margin="415,10,0,0" VerticalAlignment="Top" Width="239" Click="cmBuild"/>
         <Button x:Name="button2" Content="Показать данные" HorizontalAlignment="Left" Margin="415,35,0,0" VerticalAlignment="Top" Width="239" Click="cmShowData"/>
-        <Button x:Name="button3" Content="Генерировать данные" HorizontalAlignment="Left" Margin="415,60,0,0" VerticalAlignment="Top" Width="239" Click="cmGenerate"/>
-        <Button x:Name="button4" Content="Проверить" HorizontalAlignment="Left" Margin="415,190,0,0" VerticalAlignment="Top" Width="239" Click="cmCheck"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="100" Margin="415,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="239" AcceptsReturn="True" AcceptsTab="True"/>
+        <Button x:Name="button4" Content="Проверить" HorizontalAlignment="Left" Margin="415,89,0,0" VerticalAlignment="Top" Width="239" Click="cmCheck"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="415,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="239" AcceptsReturn="True" AcceptsTab="True"/>
+        <RadioButton x:Name="radioButton" Content="Black" HorizontalAlignment="Left" Margin="415,118,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.247,-3.333" GroupName="Color" IsChecked="True"/>
+        <RadioButton x:Name="radioButton1" Content="Blue" HorizontalAlignment="Left" Margin="415,138,0,0" VerticalAlignment="Top" GroupName="Color"/>
+        <RadioButton x:Name="radioButton2" Content="Red" HorizontalAlignment="Left" Margin="415,158,0,0" VerticalAlignment="Top" GroupName="Color"/>
+        <RadioButton x:Name="radioButton3" Content="Green" HorizontalAlignment="Left" Margin="415,178,0,0" VerticalAlignment="Top" GroupName="Color"/>
+        <RadioButton x:Name="radioButton4" Content="Yellow" HorizontalAlignment="Left" Margin="415,198,0,0" VerticalAlignment="Top" GroupName="Color"/>
+        <RadioButton x:Name="radioButton5" Content="Orange" HorizontalAlignment="Left" Margin="415,218,0,0" VerticalAlignment="Top" GroupName="Color"/>
 
     </Grid>
 </Window>

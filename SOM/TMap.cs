@@ -112,7 +112,12 @@ namespace SOM
             {
                 for (int j = 0; j < M; j++)
                 {
-                    br = GetColor(Data[i, j] / max);
+                    if (Data[i, j] == 0)
+                    {
+                        continue;
+                    }
+
+                    br = Brushes.White; //GetColor(Data[i, j] / max);
 
                     Ellipse O = new Ellipse();
                     O.Stroke = br;
@@ -126,15 +131,15 @@ namespace SOM
 
         }
 
-        public void DrawCheck(int i, int j)
+        public void DrawCheck(Brush br, int i, int j)
         {
             double L = g.Width;
 
             double dl = L / M;
 
             Ellipse O = new Ellipse();
-            O.Stroke = Brushes.Black;
-            O.Fill = Brushes.Black;
+            O.Stroke = br;
+            O.Fill = br;
             O.Width = dl;
             O.Height = dl;
             O.Margin = new Thickness(i * dl, j * dl, 0, 0);
